@@ -1,0 +1,310 @@
+*{ margin: 0px; padding: 0px; font-family: "Fira Sans",sans-serif; font-size: 16px; color: #fff;}
+.wrap { text-align: center; min-width: 300px;}
+.wrap > div { margin: 0 auto; text-align: left; padding: 0px 10px; max-width: 1170px; min-width: 300px; width: 100%;}
+.clear { clear: both !important;}
+.ta-left { text-align: left;}
+.ta-right {text-align: right;}
+.ta-center { text-align: center;}
+.center { margin: 0 auto; clear: none;}
+.hdn{display:none;}
+
+.button {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+
+}
+
+.footer-wrap { background:url(../img/footer-bg.jpg) center bottom no-repeat;}
+#footer { padding-top: 90px; padding-bottom: 65px; text-align: center;}
+.row { margin-left: 0px; margin-right: 0px;}
+h2.header {
+	font-size: 32px;
+	text-align: center;
+	color: #FFFFFF;
+	padding-bottom: 30px;
+}
+h2.header span { font-size: 16px; font-weight: normal; }
+#footer p {
+	font-size: 16px;
+	text-align: center;
+	color: #FFFFFF;
+	max-width: 720px;
+	margin: 0 auto;
+}
+#footer li a {
+font-size: 12px;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+opacity: 0.50;
+
+}
+#footer ul { padding-left: 0px; padding-top: 35px;}
+#footer li a:hover { opacity: 1;}
+#footer li { text-align: center; list-style-type: none;}
+#footer li:first-child { text-align: left;}
+#footer li:first-last { text-align: right;}
+
+#footer .mail { font-size: 18px; text-align: center; padding-top: 30px; padding-bottom: 30px;}
+#footer .phone {
+font-weight: 300;
+font-size: 96px;
+
+text-align: center;
+
+
+}
+.button {
+
+display: inline-block;
+text-decoration: none;
+color: #fff;
+line-height: 52px;
+box-shadow: 3px 6px 9px rgba(203, 163, 91, 0.3);
+
+max-width: 290px;
+width: 100%;
+margin: 0 auto;
+height: 52px;
+background: #CBA35B;
+font-weight: 500;
+font-size: 18px;
+text-align: center;
+
+
+border-radius: 8px;
+}
+#footer .button {
+	margin-bottom: 40px;
+}
+
+
+.blockchain-wrap { background:url(../img/blockchain-bg.jpg) center top no-repeat;}
+#blockchain { padding-top: 80px; padding-bottom: 120px; max-width: 960px; background:url(../img/shield.png) right 236px no-repeat;}
+#blockchain li {line-height: 32px; list-style-type: none; position: relative; padding-left: 70px;}
+#blockchain li+li { margin-top: 30px;}
+#blockchain li:before { display: block; background:url(../img/blockchain-li-icon.png) center center no-repeat; width: 32px; height: 32px; content: ""; position: absolute; left: 0px; top: 50%; margin-top: -16px; }
+#blockchain h2.header { text-align: left; margin-bottom: 40px; font-size: 48px;}
+#blockchain .button { margin-top: 45px;}
+
+.goals-wrap {}
+#goals {padding-top: 80px; padding-bottom: 110px;}
+#goals * { color: #454F5D;}
+#goals h2.header { margin-top: 0px; margin-bottom: 40px; color: #434852; font-size: 48px;}
+#goals > p { text-align: center; font-size: 18px; color: #454F5D; margin-bottom: 45px;}
+
+#goals h3 { text-align: center; margin-bottom: 50px;}
+#goals .item { text-align: center;} 
+#goals .item h4 { font-size: 24px; color: #99A8C8;}
+#goals .item p { color: #434852;}
+#goals .item-img { height: 260px;}
+#goals .item-img img {}
+
+.stock-wrap { background:url(../img/stock-bg.jpg) center top no-repeat;}
+#stock { padding-top: 80px; padding-bottom: 80px;}
+#stock > p { font-size: 18px; margin-top: 30px; margin-bottom: 30px;}
+#stock > p b { font-size: 18px;}
+#stock .content div {}
+#stock h2.header { text-align: left; font-size: 42px; max-width: 1000px; margin-bottom: 0px; padding-bottom: 0px;}
+#stock h3 { font-weight: normal; font-size: 18px; margin-bottom: 45px;}
+
+#stock .content .left > div.row {
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 8px;
+min-height: 376px;
+padding: 35px 15px;
+}
+#stock .content .left > div.row > div { padding-left: 0px; padding-right: 0px;}
+#stock .content .right > div {
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 8px;
+min-height: 376px;
+padding: 35px 25px;
+}
+#stock .content .left { }
+#stock .big { font-size: 160px; color: #99A8C8; font-weight: bold; line-height: 160px;}
+
+#stock .p1 { font-size: 14px; position: relative;}
+#stock .p1.hasicon:before { content: ""; background:url(../img/correct-symbol.png) center center no-repeat;; width: 16px; height: 13px; display: block; position: absolute; left: 55px; top: 50%; margin-top: -7px;}
+#stock .p2 { font-size: 16px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; padding-top: 10px; padding-bottom: 10px;}
+#stock .p3 {}
+#stock .desc p{ padding-left: 120px; position: relative; padding-bottom: 50px; min-height: 138px;}
+#stock .desc p:before { content: ""; display: block; width: 100px; height: 100px; background:url(../img/photo.png) center center no-repeat; left: 0px; top: 0px; position: absolute;}
+
+#stock .content .right p { padding-bottom: 50px; min-height: 138px;}
+
+
+#buy-now { padding-bottom: 80px; padding-top: 80px;}
+#buy-now h2.header { margin-bottom: 50px;}
+#buy-now * { color: #434852;}
+#buy-now .p1 > .row > div { padding-left: 0px;}
+#buy-now .p1 li { }
+#buy-now .p1 li {line-height: 24px; position: relative; padding-left: 70px;list-style-type: none; color: #434852; font-size: 20px;
+
+
+background: #FFFFFF;
+box-shadow: 0px 10px 20px rgba(153, 168, 200, 0.3);
+border-radius: 8px;
+min-height: 72px; padding-top: 12px; padding-bottom: 12px;
+
+}
+#buy-now .p1 li+li { margin-top: 30px;}
+#buy-now .p1 li:before { display: block; background:url(../img/blockchain-li-icon.png) center center no-repeat; width: 32px; height: 32px; content: ""; position: absolute; left: 10px; top: 50%; margin-top: -16px; }
+#buy-now .p1 span { display: inline-block; position: relative; padding-left: 24px;}
+#buy-now .p1 span:before { display: block; background:url(../img/correct-small.png) center center no-repeat; width: 16px; height: 16px; content: ""; position: absolute; left: 0px; top: 50%; margin-top: -8px; }
+#buy-now .p1 span+span { margin-left: 20px;}
+#buy-now .p1 h4 { color: #99A8C8; font-size: 20px; font-weight: bold; margin-top: 50px; margin-bottom: 15px;}
+#buy-now .p1 img { width: 100%; height: auto; max-width: 500px; margin: 0 auto;}
+
+#buy-now .p2 { padding-top: 75px;}
+#buy-now .p2 h3 { color: #434852; font-size: 24px; margin-top: 0px; margin-bottom: 0px;}
+#buy-now .p2 h4 { font-size: 17px;}
+#buy-now .p2 li { font-size: 17px;}
+#buy-now .p2 li+li { margin-top: 20px;}
+#buy-now .p2 img { width: 100%; height: auto; max-width: 500px; margin: 0 auto;}
+
+.top-wrap { background:url(../img/top-bg.jpg) center bottom no-repeat; min-height: 760px; padding-bottom: 40px;}
+
+#header { padding-top: 35px; min-height: 105px;}
+
+
+#header .phone { font-size: 24px; line-height: 44px;}
+#header .text {}
+#header .callback-button { font-size: 14px; color: #BDBDBD; line-height: 44px;}
+#header .callback-button a { font-size: 12px; color: #CBA35B;}
+#header .row > div { padding-left: 0px; padding-right: 0px;}
+
+
+#top { padding-top: 65px; height: 618px;}
+#top h1 { font-size: 64px; line-height: 72px;}
+#top h1 span { font-size: 20px; display: inline-block; line-height: 28px;}
+#top .button { margin-top: 30px;}
+
+.calculator-wrap { background: #1C0F24;}
+
+#calc-left {
+	padding-right: 20px;
+}
+#calculator { padding-top: 50px; padding-bottom: 50px;}
+#calculator * { color: #4B545B;}
+#calc-left input.calc {
+background: #FFFFFF;
+border: 1px solid #E0E0E0;
+box-sizing: border-box;
+border-radius: 6px;
+display: block; width: 100%;
+height: 52px;
+padding: 0px 25px;
+font-size: 18px;
+color: #4B545B;
+font-weight: 300;
+
+}
+#calc-left .slider.slider-horizontal { width: 100%;}
+#calc-left .inner, #calc-right .inner {
+	background: #FFFFFF;
+border-radius: 6px;
+padding: 30px;
+}
+#calc-right { padding-left: 20px;}
+
+#calc-right .calc-result-value { float: right; font-size: 18px; font-weight: 500; color: #4B545B;}
+#calc-right h4 { font-size: 18px; font-weight: normal; color: #4B545B; margin-top: 0px;}
+#calc-right h4 span { color: #828282; font-size: 14px;}
+#calc-right .clear { border-top: 1px solid #E0E0E0; margin-top: 15px; margin-bottom: 15px}
+#calc-right .button { color: #fff; margin-top: 25px;}
+
+#calculator .slider.slider-horizontal .slider-track {
+	height: 4px;
+	background: #E0E0E0;
+
+	margin-top: -2px;
+}
+#calculator .slider-tick { background: #FFFFFF;
+
+background: #FFFFFF;
+box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+
+}
+#calculator .slider-tick.in-selection {
+	background: #CBA35B;
+}
+#calculator .slider-selection.tick-slider-selection { background: #CBA35B;}
+#calculator .slider-handle {
+	background: #fff;
+	border: 6px solid #CBA35B;	
+}
+
+#calc-left .row.no-gutters {
+	padding-top: 20px;
+}
+#calc-left .left { float: left; font-size: 14px; color: #4B545B; padding-top: 5px;}
+#calc-left .right { float: right; font-size: 14px; color: #4B545B; padding-top: 5px;}
+
+#calc-left h3 { font-size: 20px; font-weight: 500; color: #4B545B; margin-top: 0px; margin-bottom: 15px;}
+
+#calculator .inner { min-height: 316px;}
+
+@media (max-width: 1110px) {
+	#stock .big { font-size: 140px;line-height: 140px;}
+	#header .phone { font-size: 20px; line-height: 44px;}
+}
+@media (max-width: 992px) {
+	#footer .phone { font-size: 48px;}
+	#goals .item { margin: 0 auto; max-width: 400px;}
+	#goals .item+.item { margin-top: 60px;}
+	#stock .content .right > div { min-height: 0px; margin-top: 40px;}
+	#buy-now .p2 .tohide { display: none;}
+	#header .rright { padding-top: 50px;}
+	#header { text-align: center;}
+	#header .lleft img { margin: 0 auto;}
+	.top-wrap {background:url(../img/top-bg-no-graph.jpg) center bottom no-repeat; background-size: cover;}
+	#top { background:url(../img/graph-992.png) center bottom no-repeat; height: 618px;}
+	#top h1 { font-size: 48px; line-height: 56px;}
+	#top h1 span { width: 50%; margin-top: 20px}
+	
+	.stock-wrap { background-size: cover;}
+	#calc-right { padding-left: 0px; padding-right: 0px; padding-top: 20px;}
+	#calc-left { padding-right: 0px;padding-left: 0px;}
+}
+@media (max-width: 768px) {
+	#header .rright { padding-top: 0px;}
+	#footer li { text-align: left;}
+	#blockchain { background: none;}
+	#blockchain h2.header { font-size: 36px;}
+	#header .rright > div { padding-top: 10px}
+	#top { background:url(../img/graph-768.png) center bottom no-repeat; height: 618px;}
+	
+	
+	#stock .content .left > div.row > div:last-child { padding-top: 30px;}
+	#stock .content .left > div.row > div { text-align: left; margin: 0 auto; width: 60%;}
+	#stock .content .right .big { text-align: left; margin: 0 auto; width: 60%;}
+	#stock .content .left > div.row > div.desc { width: 100%;}
+	
+}
+@media (max-width: 576px) {
+	#footer .phone { font-size: 36px;}
+	#footer h2 { font-size: 24px;}
+	#blockchain h2.header { font-size: 24px;}
+	#stock .desc p{ padding-left: 0px; padding-top: 120px;}
+	#stock .desc p:before { top: 0px; left: 50%; margin-left: -50px;}
+	#top { background:url(../img/graph-480.png) center bottom no-repeat; height: 618px;}
+	#header .logo img { width: 80%; height: auto;}
+	#top h1 { font-size: 36px; line-height: 42px;}
+	#top h1 span { width: 80%; margin-top: 20px}
+	
+	#goals h2.header, #stock h2.header { font-size: 32px;}
+	#goals p { font-size: 14px;}
+	
+	#stock .content .left > div.row > div { width: 100%;}
+	#stock .content .right .big { width: 100%;}
+}
+@media (max-width: 480px){
+	#top { background:url(../img/graph-320.png) center bottom no-repeat; height: 618px;}
+	#header .logo img { width: 100%; height: auto;}
+}
+
